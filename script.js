@@ -1,4 +1,4 @@
-const API_KEY = "mjOV7bAbps_pML7EkafIWRWuCZ26GrFV";
+const API_KEY = "XzHchY_r5rOtIvJ4lm8Ay3WlmFDUuj3K";
 const portfolio = [];
 
 function getTwoDaysBeforeDate() {
