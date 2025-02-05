@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Portfolio Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grid"></div>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="header">
+                <h1 class="title">Stock Portfolio</h1>
+            </div>
+            <div id="poda">
+                <div class="darkBorderBg"></div>
+                <div class="white"></div>
+                <div class="border"></div>
+                <div class="glow"></div>
+                <input type="text" id="stock-symbol" class="input" placeholder="Enter stock symbol (e.g., AAPL)">
+                <button id="search-button">Search</button>
+                <div id="pink-mask"></div>
+            </div>
+            <div class="portfolio-section">
+                <h2 class="section-title">Your Portfolio</h2>
+                <ul id="portfolio" class="portfolio-list"></ul>
+                <div id="total-worth" class="total-worth">
+                    <h3>Total Worth: $<span id="total-worth-value">0.00</span></h3>
+                    <p id="total-worth-comment">The market is waiting for you, legend! Enter and BOOM it!</p>
+                </div>
+            </div>
+        </aside>
+        <main class="main-content">
+            <div class="popular-stocks">
+                <h2 class="section-title">Popular Stocks</h2>
+                <div class="cards-grid" id="popular-stocks-container">
+                    <div class="stock-card">
+                        <div class="stock-symbol">BBAI</div>
+                        <div class="stock-name">BigBear.ai Holdings, Inc.</div>
+                        <div class="stock-price">$7.37</div>
+                        <div class="stock-volume">Volume: 229.078M</div>
+                        <div class="stock-market-cap">Market Cap: $1.833B</div>
+                    </div>
+                    <div class="stock-card">
+                        <div class="stock-symbol">GOOG</div>
+                        <div class="stock-name">Alphabet Inc.</div>
+                        <div class="stock-price">$191.85</div>
+                        <div class="stock-volume">Volume: 33.798M</div>
+                        <div class="stock-market-cap">Market Cap: $2.338T</div>
+                    </div>
+                    <div class="stock-card">
+                        <div class="stock-symbol">FMC</div>
+                        <div class="stock-name">FMC Corporation</div>
+                        <div class="stock-price">$36.71</div>
+                        <div class="stock-volume">Volume: 20.131M</div>
+                        <div class="stock-market-cap">Market Cap: $4.579B</div>
+                    </div>
+                    <div class="stock-card">
+                        <div class="stock-symbol">AMD</div>
+                        <div class="stock-name">Advanced Micro Devices, Inc.</div>
+                        <div class="stock-price">$110.79</div>
+                        <div class="stock-volume">Volume: 91.751M</div>
+                        <div class="stock-market-cap">Market Cap: $179.829B</div>
+                    </div>
+                    <div class="stock-card">
+                        <div class="stock-symbol">AVGO</div>
+                        <div class="stock-name">Broadcom Inc.</div>
+                        <div class="stock-price">$234.63</div>
+                        <div class="stock-volume">Volume: 20.146M</div>
+                        <div class="stock-market-cap">Market Cap: $1.103T</div>
+                    </div>
+                    <div class="stock-card">
+                        <div class="stock-symbol">GOOGL</div>
+                        <div class="stock-name">Alphabet Inc.</div>
+                        <div class="stock-price">$190.02</div>
+                        <div class="stock-volume">Volume: 53.130M</div>
+                        <div class="stock-market-cap">Market Cap: $2.332T</div>
+                    </div>
+                </div>
+            </div>
+            <div class="performance-section">
+                <h2 class="section-title">Stock Performance</h2>
+                <div id="stock-performance-container" class="cards-grid"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
