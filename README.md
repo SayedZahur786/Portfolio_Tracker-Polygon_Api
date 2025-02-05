@@ -11,7 +11,6 @@ A dynamic and intuitive web application to track your stock portfolio in real-ti
 
 - **Real-Time Stock Data** ⏰: Fetch live prices, highs, lows, and more using the Polygon.io API.
 - **Portfolio Management** 📊: Add/remove stocks, track performance, and view historical trends.
-- **Interactive Charts** 📉: Visualize stock performance with **Chart.js** integration.
 - **Popular Stocks Section** 🌟: Pre-loaded data for top stocks (AAPL, TSLA, etc.).
 - **Total Worth Calculator** 💰: Automatic portfolio valuation with fun motivational messages:
 ---
