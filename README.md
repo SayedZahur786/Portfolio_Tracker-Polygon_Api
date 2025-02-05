@@ -3,7 +3,7 @@
 A dynamic and intuitive web application to track your stock portfolio in real-time using the **Polygon.io API**! 🚀 Manage your investments, visualize trends with interactive charts, and get playful feedback on your portfolio's performance. Built with **HTML**, **CSS**, and **JavaScript**, this app combines functionality with a sleek design. 🎉
 
 **[Live Demo](#)** 🔗 *(https://sayedzahur786.github.io/Portfolio_Tracker-Polygon_Api/)*  
-![Screenshot of the App](screenshot.png) *(Replace with your screenshot)*
+![Screenshot of the App](Stock_Portfolio_Demo.png) *(Replace with your screenshot)*
 
 ---
 
