@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Stock Tracker</h1>
+    
+    <div class="popular-stocks">
+      <h2>Popular Stocks</h2>
+      <div class="cards-container" id="popular-stocks-container">
+      </div>
+    </div>
+
+    
+    <div class="search-section">
+      <input type="text" id="stock-symbol" placeholder="Enter stock symbol (e.g., AAPL)">
+      <button id="add-stock">Add Stock</button>
+    </div>
+
+    
+    <div class="portfolio-section">
+      <h2>Your Portfolio</h2>
+      <ul id="portfolio"></ul>
+    </div>
+
+    
+    <div class="graph-section">
+      <h2>Stock Trends</h2>
+      <canvas id="stockChart"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
